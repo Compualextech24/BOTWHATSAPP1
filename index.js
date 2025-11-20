@@ -50,13 +50,13 @@ const howAreYouTriggers = [
 ];
 
 const identityResponse =
-  "Soy un Agente Personalizado de respuesta automática. Si quieres comunicarte conmigo, envíame mensaje en Telegram a @Cm24HrdZ o al correo Axeltech24@protonmail.com ⚡⭐✨\n, ¿En qué te puedo ayudar por aquí? 🤲";
+  "Soy un Agente Personalizado de Respuesta Automática. Si quieres comunicarte conmigo, envíame mensaje en Telegram a @Cm24HrdZ⚡⭐✨\n, ¿En qué te puedo ayudar este medio? 🤲";
 
 const greetingResponse =
-  "Hola, soy un Agente Personalizado de respuesta automática. Si quieres comunicararte conmigo, puedes escribirme en Telegram a @Cm24HrdZ o al correo Axeltech24@protonmail.com ⚡⭐✨\nCuéntame, ¿en qué te puedo ayudar por aquí? 🤲";
+  "Hola, soy un Agente Personalizado de Respuesta Automática. Si quieres comunicararte conmigo, puedes escribirme en Telegram a @Cm24HrdZ⚡⭐✨\n , Cuéntame ¿en qué te puedo ayudar por este medio? 🤲";
 
 const noImageResponse =
-  "Lo siento, no puedo crear imágenes. Soy un Agente Personalizado de respuesta automática. Si quieres contactarme, puedes escribirme a @Cm24HrdZ en Telegram o a Axeltech24@protonmail.com ⚡⭐✨";
+  "Lo siento, no puedo crear imágenes. Soy un Agente Personalizado de Respuesta Automática. Si quieres contactarme, puedes escribirme a @Cm24HrdZ en Telegram ⚡⭐✨";
 
 const howAreYouResponse =
   "Yo de lujo, como agente personalizado de respuesta automática siempre hay mucho que hacer 😎✨, ¿Y tú qué tal, qué cuentas? 🤭";
@@ -229,3 +229,4 @@ async function connectToWhatsApp() {
 // INICIO DEL BOT
 // ============================================================
 connectToWhatsApp();
+
