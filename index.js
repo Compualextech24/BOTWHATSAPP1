@@ -92,8 +92,18 @@ async function connectToWhatsApp() {
     console.log("📡 Estado:", connection);
 
     if (qr) {
+      const qrUrl = `https://chart.googleapis.com/chart?cht=qr&chs=250x250&chl=${encodeURIComponent(qr)}`;
+      
       console.log("📱 Escanea este QR:");
+      
+      // Opción 1: QR en terminal (para uso local)
       qrcode.generate(qr, { small: true });
+
+      // Opción 2: URL de escaneo (para usar en consolas de servidores como Railway)
+      console.log("-----------------------------------------");
+      console.log("🔗 URL del QR (Pégala en un navegador para escanear):");
+      console.log(qrUrl);
+      console.log("-----------------------------------------");
     }
 
     if (connection === "open" && sock.user?.id) {
