@@ -92,7 +92,8 @@ async function connectToWhatsApp() {
     console.log("📡 Estado:", connection);
 
     if (qr) {
-      const qrUrl = `https://chart.googleapis.com/chart?cht=qr&chs=250x250&chl=${encodeURIComponent(qr)}`;
+      // **NUEVA URL DE QR** Usamos quickchart.io como alternativa
+      const qrUrl = `https://quickchart.io/qr?text=${encodeURIComponent(qr)}&size=250x250`;
       
       console.log("📱 Escanea este QR:");
       
